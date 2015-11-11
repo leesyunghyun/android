@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#33F2CB61"
+    android:gravity="center" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <RadioGroup
+                android:id="@+id/rghairkind"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rbhairkind0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="투블럭" />
+
+                <RadioButton
+                    android:id="@+id/rbhairkind1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="댄디" />
+
+                <RadioButton
+                    android:id="@+id/rbhairkind2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="리젠트" />
+                
+                <RadioButton
+                    android:id="@+id/rbhairkind3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="모히칸" />
+                
+                <RadioButton
+                    android:id="@+id/rbhairkind4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="비대칭" />
+                
+                <RadioButton
+                    android:id="@+id/rbhairkind5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="샤기" />
+                
+                <RadioButton
+                    android:id="@+id/rbhairkind6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="꽁지묶음" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnhairkind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택"
+            android:background="@drawable/btnonoff"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tvhairkind1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvhairkind2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnhairkind2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/btnonoff"
+            android:text="자세히" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webViewhairkind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

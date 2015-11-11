@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#33F2CB61" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imagehairstyle1"
+                    android:layout_width="300px"
+                    android:layout_height="450px"
+                    android:maxHeight="300px"
+                    android:maxWidth="450px"
+                    android:scaleType="fitStart" />
+
+                <TextView
+                    android:id="@+id/tvhairstyle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tvhairstyle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imagehairstyle2"
+                    android:layout_width="300px"
+                    android:layout_height="450px"
+                    android:maxHeight="300px"
+                    android:maxWidth="450px"
+                    android:scaleType="fitStart"/>
+
+                <ImageView
+                    android:id="@+id/imagehairstyle3"
+                    android:layout_width="300px"
+                    android:layout_height="450px"
+                    android:maxHeight="300px"
+                    android:maxWidth="450px"
+                    android:scaleType="fitStart"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imagehairstyle4"
+                    android:layout_width="300px"
+                    android:layout_height="450px"
+                    android:maxHeight="300px"
+                    android:maxWidth="450px"
+                    android:scaleType="fitStart"/>
+
+                <ImageView
+                    android:id="@+id/imagehairstyle5"
+                    android:layout_width="300px"
+                    android:layout_height="450px"
+                    android:maxHeight="300px"
+                    android:maxWidth="450px"
+                    android:scaleType="fitStart"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imagehairstyle6"
+                    android:layout_width="300px"
+                    android:layout_height="450px"
+                    android:maxHeight="300px"
+                    android:maxWidth="450px"
+                    android:scaleType="fitStart"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

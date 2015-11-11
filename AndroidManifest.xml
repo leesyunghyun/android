@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.homme.Homme_Font"
+        android:allowBackup="true"
+        android:icon="@drawable/mainimage"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.homme.Homme_Profile_Select" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.homme.MainActivity" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Profile_Make" >
+        </activity>
+        <activity android:name="com.example.homme.LoadingSplash" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Profile_Modify" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Health_Main" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Health_Weight" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Health_Kind" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Health_Health" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Profile_Select_Skin" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Profile_Select_Skin2" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Skin_Main" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Skin_Kind" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Profile_Hair" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Hair_Main" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Hair_Style" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Hair_Tip" >
+        </activity>
+        <activity android:name="com.example.homme.Homme_Hair_Kind" >
+        </activity>
+    </application>
+
+</manifest>
